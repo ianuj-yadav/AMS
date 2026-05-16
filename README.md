@@ -1,103 +1,419 @@
-content = """# AWSPro - College Attendance Management System (CAMS)
+# AWSPro - College Attendance Management System (CAMS)
 
-The College Attendance Management System (CAMS), internally branded as AWSPro, is a comprehensive web-based application designed to streamline and automate the attendance tracking process in educational institutions. Traditional attendance management systems often rely on manual marking and paper-based records, which are time-consuming and prone to human error. This project modernizes the workflow by presenting an innovative digital solution that enables real-time attendance marking, automated QR-based check-ins, and robust data visualization.
+A modern full-stack attendance management system for educational institutions, featuring real-time attendance marking, QR-based student check-ins, photo verification, and interactive analytics dashboards.
 
-## ✨ Key Features
-
-* **Administrator Authentication:** Secure signup and login portal allowing verified administrators to manage attendance, oversee departments, and control system access.
-* **Comprehensive Student Roster:** A centralized dashboard to enroll new students, allocate them to specific classes and subjects, and manage their academic profiles with unique roll numbers.
-* **Real-time Attendance Marking:** Allows faculty to manually toggle student presence via an intuitive, glassmorphism-styled interface that filters by date, class, and subject.
-* **Student QR Kiosk & Photo Verification:** Admins can generate a dynamic, session-specific QR code. Students use the self-service kiosk to select their profile, scan the QR using their device's camera, and capture a photo to confirm their identity and log their attendance.
-* **Interactive Analytics Dashboard:** Provides visually appealing Bar and Line charts tracking weekly attendance trends, overall student engagement levels, and real-time daily insights (Present vs. Absent ratios).
-* **Lightweight Data Persistence:** Stores application state—including user credentials, student lists, subject enrollments, and historical attendance data—in an efficient, centralized JSON file without requiring a heavy external database.
+AWSPro CAMS replaces traditional paper-based attendance systems with a secure, fast, and digital solution for administrators, faculty members, and students.
 
 ---
 
-## 🛠️ Technology Stack
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Workflow](#workflow)
+- [API Endpoints](#api-endpoints)
+- [Configuration](#configuration)
+- [Report Generation](#report-generation)
+- [Future Scope](#future-scope)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
+
+---
+
+## About the Project
+
+AWSPro CAMS is a smart attendance management platform designed for schools, colleges, and universities.
+
+The system allows:
+
+- Faculty members to manage attendance digitally
+- Students to check into classes using QR codes
+- Administrators to monitor attendance trends through analytics dashboards
+- Institutions to reduce manual attendance errors and paperwork
+
+The platform includes authentication, attendance dashboards, QR-based check-ins, webcam-based photo verification, analytics, and report generation.
+
+---
+
+## Features
+
+### Authentication System
+
+- Secure login and signup
+- Faculty/Admin authentication
+- Session management
+
+### Student Management
+
+- Add new students
+- Edit student records
+- Delete students
+- Assign students to classes and subjects
+
+### Attendance Dashboard
+
+- Real-time attendance tracking
+- Present/Absent toggle system
+- Attendance filtering
+- Class-wise attendance management
+
+### QR-Based Check-In
+
+- Dynamic QR code generation
+- Student self check-in system
+- Webcam QR scanner
+- Fast attendance logging
+
+### Photo Verification
+
+- Webcam image capture
+- Identity verification during check-in
+- Secure attendance validation
+
+### Analytics Dashboard
+
+- Attendance trend visualization
+- Weekly analytics
+- Interactive charts using Recharts
+- Student participation insights
+
+### Report Generation
+
+- Automatic attendance report generation
+- DOCX export support
+- Node.js and Python-based report generators
+
+---
+
+## Tech Stack
 
 ### Frontend
-* **Core:** React 19, TypeScript, and Vite for fast, optimized builds.
-* **Styling:** Tailwind CSS v4 alongside custom CSS for modern, responsive glassmorphism UI designs.
-* **Routing:** React Router v7 for seamless client-side navigation between the Hub, Dashboard, and Analytics pages.
-* **Data Visualization:** Recharts for rendering interactive graphs.
-* **Media & Hardware:** `qrious` for rendering QR codes and `jsqr` for processing webcam video streams.
 
-### Backend & Tooling
-* **Server Core:** Node.js with Express.js handling RESTful API requests.
-* **Storage:** File-system based JSON storage (`data.json`) acting as the primary database.
-* **Security:** Configured with Cross-Origin Resource Sharing (CORS) and built-in UUID generation for unique record identification.
-* **Documentation:** Auxiliary scripts in both Node.js (`docx` library) and Python (`python-docx`) to auto-generate `.docx` project reports.
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- React Router DOM v7
+- Recharts
+- jsQR
+- Qrious
+- Vite
 
----
+### Backend
 
-## 🚀 Getting Started
+- Node.js
+- Express.js
 
-### Prerequisites
-* Node.js (v18 or higher recommended)
-* npm
+### Database
 
-### Installation & Execution
+- JSON-based persistent storage using `data.json`
 
-1.  **Clone the repository:**
-    ```
-```text?code_stdout&code_event_index=2
-README.md created successfully
+### Tools
 
-```bash
-    git clone [https://github.com/your-username/awspro-ams.git](https://github.com/your-username/awspro-ams.git)
-    cd awspro-ams
-    ```
-
-2.  **Install dependencies:**
-    Navigate to the root directory and install packages for both frontend and backend environments.
-    ```bash
-    npm install
-    ```
-
-3.  **Start the Backend Server:**
-    The Express server operates on port 4000 and handles all API operations.
-    ```bash
-    npm run start # or npm run dev for nodemon
-    ```
-
-4.  **Start the Frontend Development Server:**
-    Open a new terminal window, ensure you are in the frontend directory, and run Vite.
-    ```bash
-    npm run dev
-    ```
-    The application will be accessible at `http://localhost:5173`. 
+- Python
+- python-docx
+- docx
+- Git
+- GitHub
 
 ---
 
-## 📡 REST API Reference
+## Project Structure
 
-The backend provides several core endpoints for data manipulation and retrieval:
-
-* **Authentication:**
-    * `POST /api/auth/signup`: Registers a new administrator.
-    * `POST /api/auth/login`: Authenticates an administrator and grants access.
-* **State Management:**
-    * `GET /api/state`: Retrieves the complete application state (classes, subjects, students, enrollments).
-* **Entity Operations:**
-    * `POST /api/students`: Adds a new student record and handles subject auto-enrollment.
-    * `DELETE /api/students/:id`: Removes a student and cleans up their historical attendance.
-    * `POST /api/classes` & `DELETE /api/classes/:id`: Manages academic classes.
-    * `POST /api/subjects` & `DELETE /api/subjects/:id`: Manages academic subjects.
-* **Attendance Logging:**
-    * `POST /api/attendance/mark`: Toggles manual present/absent status for a student.
-    * `POST /api/check-in/photo`: Validates a QR scan and saves a base64 photo capture alongside the check-in timestamp.
+\`\`\`bash
+awspro-ams/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   ├── Login.tsx
+│   │   │   ├── Signup.tsx
+│   │   │   ├── Analytics.tsx
+│   │   │   └── Profile.tsx
+│   │   │
+│   │   ├── AttendanceSystem.tsx
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── index.css
+│   │
+│   ├── index.html
+│   └── vite.config.ts
+│
+├── backend/
+│   ├── server.js
+│   └── data.json
+│
+├── scripts/
+│   ├── generate_report.js
+│   └── generate_report.py
+│
+├── package.json
+└── README.md
+\`\`\`
 
 ---
 
-## 📄 Automated Report Generation
+## Installation
 
-The project includes built-in scripts to generate formal documentation detailing the system's abstract, methodology, literature study, and performance evaluation.
+### 1. Clone the Repository
 
-To generate the Microsoft Word (`.docx`) report, run either of the following commands from the `scripts/` directory:
+\`\`\`bash
+git clone https://github.com/ianuj-yadav/awspro-ams.git
+\`\`\`
 
-```bash
-# Using Node.js
-node scripts/generate_report.js
+### 2. Navigate to the Project Folder
 
-# Using Python
-python scripts/generate_report.py
+\`\`\`bash
+cd awspro-ams
+\`\`\`
+
+### 3. Install Dependencies
+
+Install all dependencies using:
+
+\`\`\`bash
+npm run install-all
+\`\`\`
+
+Or install frontend and backend dependencies manually:
+
+\`\`\`bash
+cd frontend
+npm install
+\`\`\`
+
+\`\`\`bash
+cd ../backend
+npm install
+\`\`\`
+
+---
+
+## Usage
+
+### Start Development Servers
+
+From the root directory, run:
+
+\`\`\`bash
+npm run dev
+\`\`\`
+
+### Frontend
+
+\`\`\`text
+http://localhost:5173
+\`\`\`
+
+### Backend
+
+\`\`\`text
+http://localhost:4000
+\`\`\`
+
+### Basic Usage Flow
+
+1. Open the frontend application in your browser.
+2. Login or signup as an administrator/faculty member.
+3. Access the attendance dashboard.
+4. Manage students, subjects, and classes.
+5. Generate QR codes for attendance sessions.
+6. Students scan QR codes using the webcam kiosk.
+7. Attendance is recorded with photo verification.
+8. View analytics and attendance insights.
+
+---
+
+## Workflow
+
+### 1. Administrator Configuration
+
+- Admin logs into the system.
+- Students, classes, and subjects are registered.
+
+### 2. Session Creation
+
+Faculty selects:
+
+- Class
+- Subject
+- Date
+
+The system then generates a unique QR code for the attendance session.
+
+### 3. Student Check-In
+
+- Student selects their profile.
+- Student scans the QR code using the webcam scanner.
+
+### 4. Verification
+
+- Webcam captures the student image.
+- Frontend sends the attendance payload to the backend.
+
+### 5. Data Storage
+
+- Backend stores attendance records in `data.json`.
+
+### 6. Analytics
+
+- Dashboard fetches attendance data.
+- Recharts visualizes attendance trends and participation insights.
+
+---
+
+## API Endpoints
+
+### Authentication
+
+#### Login
+
+\`\`\`http
+POST /api/auth/login
+\`\`\`
+
+---
+
+### Students
+
+#### Add Student
+
+\`\`\`http
+POST /api/students
+\`\`\`
+
+---
+
+### Attendance
+
+#### Mark Attendance
+
+\`\`\`http
+POST /api/attendance/mark
+\`\`\`
+
+---
+
+### QR Check-In
+
+#### Photo-Based Check-In
+
+\`\`\`http
+POST /api/check-in/photo
+\`\`\`
+
+---
+
+### State
+
+#### Fetch Database State
+
+\`\`\`http
+GET /api/state
+\`\`\`
+
+---
+
+## Configuration
+
+### Vite Proxy Configuration
+
+The frontend uses a Vite proxy to forward API requests to the backend server.
+
+\`\`\`js
+server: {
+  proxy: {
+    '/api': 'http://localhost:4000',
+  },
+}
+\`\`\`
+
+Make sure the backend server is running on:
+
+\`\`\`text
+http://localhost:4000
+\`\`\`
+
+---
+
+## Report Generation
+
+The project supports attendance report generation using both Node.js and Python scripts.
+
+### Available Scripts
+
+\`\`\`bash
+scripts/generate_report.js
+scripts/generate_report.py
+\`\`\`
+
+### Python Dependency
+
+If using the Python report generator, install:
+
+\`\`\`bash
+pip install python-docx
+\`\`\`
+
+---
+
+## Future Scope
+
+Planned improvements include:
+
+- Biometric authentication
+- AI-based attendance prediction
+- Mobile application support
+- Student Information System integration
+- Multi-language support
+- Blockchain-based attendance security
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+### Steps to Contribute
+
+1. Fork the repository.
+2. Create a feature branch.
+
+\`\`\`bash
+git checkout -b feature-name
+\`\`\`
+
+3. Commit your changes.
+
+\`\`\`bash
+git commit -m "Added new feature"
+\`\`\`
+
+4. Push your changes.
+
+\`\`\`bash
+git push origin feature-name
+\`\`\`
+
+5. Create a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+**Anuj Yadav**
+
+- GitHub: https://github.com/ianuj-yadav
+- LinkedIn: https://linkedin.com/in/anuj-yadav07
