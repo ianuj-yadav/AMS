@@ -1,0 +1,1035 @@
+{
+  "classes": [
+    {
+      "id": "class-1",
+      "name": "Class A - CSE 1st Year"
+    },
+    {
+      "id": "class-2",
+      "name": "Class B - CSE 2nd Year"
+    },
+    {
+      "id": "class-3",
+      "name": "Class C - ECE 1st Year"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-1776695730232-ni5rszhoo1",
+      "name": "Database Management",
+      "teacher": "Prof. Sharma"
+    },
+    {
+      "id": "sub-1776696045545-c5w4kvn163",
+      "name": "Web Technology",
+      "teacher": "Ms. Yamini Singh"
+    },
+    {
+      "id": "sub-1776696456487-tre4pn0exbh",
+      "name": "Deep Learning",
+      "teacher": "Prof. Abhishek"
+    },
+    {
+      "id": "sub-1776696485002-jnkfvsc2sws",
+      "name": "Machine Learning",
+      "teacher": "Prof. Ashish"
+    },
+    {
+      "id": "sub-1776696512234-kp8mxlq9vz",
+      "name": "Data Structures",
+      "teacher": "Dr. Rajesh Kumar"
+    },
+    {
+      "id": "sub-1776696532456-yt5nprw2hm",
+      "name": "Computer Networks",
+      "teacher": "Dr. Vikram Singh"
+    }
+  ],
+  "enrollments": {
+    "1": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "2": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "3": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "4": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "5": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "6": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "7": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "8": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "9": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "10": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "11": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "12": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "13": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "14": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "15": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "16": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "17": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "18": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "19": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "20": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "21": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "22": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "23": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "24": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "25": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "26": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "27": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "28": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "29": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "30": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "31": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "32": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "33": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "34": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "35": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "36": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "37": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "38": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "39": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "40": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "41": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "42": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "43": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "44": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "45": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "46": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "47": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "48": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "49": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "50": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "51": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "52": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "53": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "54": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "55": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "56": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "57": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "58": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "59": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "60": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "0fbe13ee-c10c-4192-b556-238503a4dc0b": [
+      "sub-1776695730232-ni5rszhoo1",
+      "sub-1776696045545-c5w4kvn163",
+      "sub-1776696456487-tre4pn0exbh",
+      "sub-1776696485002-jnkfvsc2sws",
+      "sub-1776696512234-kp8mxlq9vz",
+      "sub-1776696532456-yt5nprw2hm"
+    ],
+    "b8fd90e4-4e91-4d2b-b136-70ebd5f46c88": [
+      "sub-1776695730232-ni5rszhoo1"
+    ]
+  },
+  "students": [
+    {
+      "id": "1",
+      "name": "Aarjav Kapoor",
+      "rollNumber": "CSE-001",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "2",
+      "name": "Bhavna Singh",
+      "rollNumber": "CSE-002",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "3",
+      "name": "Chetan Gupta",
+      "rollNumber": "CSE-003",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "4",
+      "name": "Divya Nair",
+      "rollNumber": "CSE-004",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "5",
+      "name": "Eshan Reddy",
+      "rollNumber": "CSE-005",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "6",
+      "name": "Fiona Desai",
+      "rollNumber": "CSE-006",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "7",
+      "name": "Gautam Verma",
+      "rollNumber": "CSE-007",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "8",
+      "name": "Harshita Iyer",
+      "rollNumber": "CSE-008",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "9",
+      "name": "Ishan Patel",
+      "rollNumber": "CSE-009",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "10",
+      "name": "Jyoti Malhotra",
+      "rollNumber": "CSE-010",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "11",
+      "name": "Karan Saxena",
+      "rollNumber": "CSE-011",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "12",
+      "name": "Lavanya Menon",
+      "rollNumber": "CSE-012",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "13",
+      "name": "Madhav Kumar",
+      "rollNumber": "CSE-013",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "14",
+      "name": "Neha Agarwal",
+      "rollNumber": "CSE-014",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "15",
+      "name": "Omkar Joshi",
+      "rollNumber": "CSE-015",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "16",
+      "name": "Priya Chopra",
+      "rollNumber": "CSE-016",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "17",
+      "name": "Quincy Fernandes",
+      "rollNumber": "CSE-017",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "18",
+      "name": "Ravi Sharma",
+      "rollNumber": "CSE-018",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "19",
+      "name": "Sneha Bhat",
+      "rollNumber": "CSE-019",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "20",
+      "name": "Tanvi Kadam",
+      "rollNumber": "CSE-020",
+      "course": "B.Tech CSE",
+      "class": "class-1"
+    },
+    {
+      "id": "21",
+      "name": "Aditya Bansal",
+      "rollNumber": "CSE-021",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "22",
+      "name": "Bhumika Rao",
+      "rollNumber": "CSE-022",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "23",
+      "name": "Chirag Sethi",
+      "rollNumber": "CSE-023",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "24",
+      "name": "Dimple Sardar",
+      "rollNumber": "CSE-024",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "25",
+      "name": "Eyal Mehta",
+      "rollNumber": "CSE-025",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "26",
+      "name": "Farida Khan",
+      "rollNumber": "CSE-026",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "27",
+      "name": "Gaurav Dutta",
+      "rollNumber": "CSE-027",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "28",
+      "name": "Harjeet Kaur",
+      "rollNumber": "CSE-028",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "29",
+      "name": "Ishita Rao",
+      "rollNumber": "CSE-029",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "30",
+      "name": "Jagriti Nair",
+      "rollNumber": "CSE-030",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "31",
+      "name": "Keshav Patel",
+      "rollNumber": "CSE-031",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "32",
+      "name": "Laxmi Sinha",
+      "rollNumber": "CSE-032",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "33",
+      "name": "Mohan Lal",
+      "rollNumber": "CSE-033",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "34",
+      "name": "Nikita Varma",
+      "rollNumber": "CSE-034",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "35",
+      "name": "Ojas Shrivastav",
+      "rollNumber": "CSE-035",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "36",
+      "name": "Pooja Singh",
+      "rollNumber": "CSE-036",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "37",
+      "name": "Ravi Kadam",
+      "rollNumber": "CSE-037",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "38",
+      "name": "Sahil Yadav",
+      "rollNumber": "CSE-038",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "39",
+      "name": "Swati Mishra",
+      "rollNumber": "CSE-039",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "40",
+      "name": "Tarun Bhatnagar",
+      "rollNumber": "CSE-040",
+      "course": "B.Tech CSE",
+      "class": "class-2"
+    },
+    {
+      "id": "41",
+      "name": "Ashok Verma",
+      "rollNumber": "ECE-001",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "42",
+      "name": "Bhavesh Rao",
+      "rollNumber": "ECE-002",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "43",
+      "name": "Chinmay Singh",
+      "rollNumber": "ECE-003",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "44",
+      "name": "Disha Pandey",
+      "rollNumber": "ECE-004",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "45",
+      "name": "Eshwar Kumar",
+      "rollNumber": "ECE-005",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "46",
+      "name": "Farhan Ahmed",
+      "rollNumber": "ECE-006",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "47",
+      "name": "Govind Bhatt",
+      "rollNumber": "ECE-007",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "48",
+      "name": "Hiya Banerjee",
+      "rollNumber": "ECE-008",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "49",
+      "name": "Inder Singh",
+      "rollNumber": "ECE-009",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "50",
+      "name": "Jayant Bose",
+      "rollNumber": "ECE-010",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "51",
+      "name": "Kunal Arora",
+      "rollNumber": "ECE-011",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "52",
+      "name": "Lucia Fernandes",
+      "rollNumber": "ECE-012",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "53",
+      "name": "Manish Rao",
+      "rollNumber": "ECE-013",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "54",
+      "name": "Nishita Sinha",
+      "rollNumber": "ECE-014",
+      "course": "B.Tech ECE",
+      "class": "class-3"
+    },
+    {
+      "id": "714b3063-be56-4ce1-860d-d257b2db6476",
+      "name": "Anuj",
+      "rollNumber": "CS-11-22",
+      "course": "B.Tech",
+      "class": "class-3"
+    },
+    {
+      "id": "0fbe13ee-c10c-4192-b556-238503a4dc0b",
+      "name": "Anuj YADAV",
+      "rollNumber": "CS-26-08",
+      "course": "B.Tech",
+      "class": "class-3"
+    },
+    {
+      "id": "b8fd90e4-4e91-4d2b-b136-70ebd5f46c88",
+      "name": "Anuj",
+      "rollNumber": "CSE - 3044",
+      "course": "B.tech Cse",
+      "class": "class-2"
+    }
+  ],
+  "attendance": {
+    "2026-05-11": {
+      "sub-1776695730232-ni5rszhoo1": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "4": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true,
+        "9": true,
+        "10": true,
+        "11": true,
+        "12": true,
+        "13": true,
+        "14": true,
+        "15": true,
+        "16": true,
+        "17": true,
+        "18": true,
+        "19": true,
+        "20": true,
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      },
+      "sub-1776696045545-c5w4kvn163": {
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      },
+      "sub-1776696456487-tre4pn0exbh": {
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      },
+      "sub-1776696485002-jnkfvsc2sws": {
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      },
+      "sub-1776696512234-kp8mxlq9vz": {
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      },
+      "sub-1776696532456-yt5nprw2hm": {
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      }
+    },
+    "2026-05-12": {
+      "sub-1776696045545-c5w4kvn163": {
+        "21": true,
+        "22": true,
+        "23": true,
+        "24": true,
+        "25": true,
+        "26": true,
+        "27": true,
+        "28": true,
+        "29": true,
+        "30": true,
+        "31": true,
+        "32": true,
+        "33": true,
+        "34": true,
+        "35": true,
+        "36": true,
+        "37": true,
+        "38": true,
+        "39": true,
+        "40": true,
+        "0fbe13ee-c10c-4192-b556-238503a4dc0b": true
+      },
+      "sub-1776695730232-ni5rszhoo1": {
+        "b8fd90e4-4e91-4d2b-b136-70ebd5f46c88": true
+      }
+    }
+  },
+  "users": [
+    {
+      "id": "9963b53d-f9e9-4582-9f92-a46e17f6b2c2",
+      "name": "Anuj ",
+      "department": "Computer Science",
+      "email": "goblinsucks0@gmail.com",
+      "password": "Anuj@0217"
+    },
+    {
+      "id": "f807e367-8983-4bdc-9593-b2182289e094",
+      "name": "Anuj",
+      "department": "Computer Science",
+      "email": "jethiyasyko@gmail.com",
+      "password": "Anuj@0217"
+    },
+    {
+      "id": "88637b14-3d0a-4bed-88f9-7eb3b0753137",
+      "name": "Anu",
+      "department": "Btech",
+      "email": "aamjoker@gmail.com",
+      "password": "babakadhaba"
+    }
+  ]
+}
