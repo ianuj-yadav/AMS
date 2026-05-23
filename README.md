@@ -522,6 +522,4 @@ You are free to use, modify, and distribute this project according to the licens
 
 If you like this project, consider giving it a star on GitHub.
 
-### Built with ❤️ for smarter classrooms.
-
 </div>
