@@ -506,7 +506,6 @@ You are free to use, modify, and distribute this project according to the licens
 
 ### Anuj Yadav
 
-**Full-Stack Developer**
 
 [![GitHub](https://img.shields.io/badge/GitHub-ianuj--yadav-181717?style=for-the-badge&logo=github)](https://github.com/ianuj-yadav)
 
