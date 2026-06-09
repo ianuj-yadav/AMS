@@ -191,41 +191,6 @@ AWSPro CAMS solves this by offering:
 
 ---
 
-## 📁 Project Structure
-
-awspro-ams/
-│
-├── frontend/
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── Home.tsx
-│   │   │   ├── Login.tsx
-│   │   │   ├── Signup.tsx
-│   │   │   ├── Analytics.tsx
-│   │   │   └── Profile.tsx
-│   │   │
-│   │   ├── AttendanceSystem.tsx
-│   │   ├── App.tsx
-│   │   ├── main.tsx
-│   │   └── index.css
-│   │
-│   ├── index.html
-│   └── vite.config.ts
-│
-├── backend/
-│   ├── server.js
-│   └── data.json
-│
-├── scripts/
-│   ├── generate_report.js
-│   └── generate_report.py
-│
-├── package.json
-└── README.md
-\`\`\`
-
----
-
 ## ⚙️ Installation
 
 ### 1️⃣ Clone The Repository
