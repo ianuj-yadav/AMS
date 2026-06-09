@@ -193,7 +193,6 @@ AWSPro CAMS solves this by offering:
 
 ## 📁 Project Structure
 
-\`\`\`bash
 awspro-ams/
 │
 ├── frontend/
