@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 AWSPro CAMS  
+# 🚀 AWSPro 
 ## 🎓 College Attendance Management System
 
 ### A smart, modern, QR-powered attendance management platform for colleges, schools, and universities.
