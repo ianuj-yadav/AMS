@@ -22,7 +22,7 @@
 
 ## ✨ About The Project
 
-**AWSPro CAMS** is a full-stack digital attendance management system designed to modernize how educational institutions manage attendance.
+**AWSPro** is a full-stack digital attendance management system designed to modernize how educational institutions manage attendance.
 
 Instead of using outdated paper registers, AWSPro CAMS provides a fast, secure, and interactive attendance workflow where faculty can manage classes, students can check in using QR codes, and administrators can monitor attendance insights through analytics dashboards.
 
